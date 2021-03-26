@@ -2,7 +2,7 @@ import { LightningElement } from "lwc";
 
 export default class App extends LightningElement {
   title = "Checkboxes are the worst!";
-
+  setChecked = false 
   showFeatures = true;
 
   /**
