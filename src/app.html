@@ -10,7 +10,7 @@
 
 				<!-- Using a for statement -->
 				<template for:each={features} for:item='feature'>
-					<c-child label={feature.label} label-a={feature.labelA} label-b={feature.labelB} key={feature.label}>
+					<c-child title={feature.title} labels={feature.labels} key={feature.title}>
 
 						<!-- Specifying the 'icon' slot for c-child -->
 						<lightning-icon icon-name={feature.icon} size="x-small" slot="icon"></lightning-icon>

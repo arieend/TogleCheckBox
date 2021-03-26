@@ -5,10 +5,8 @@ import { LightningElement, api } from "lwc";
  */
 export default class Child extends LightningElement {
   @api
-  label = "";
+  title = "";
   @api
-  labelA = "";
-  @api
-  labelB = "";
+  labels = [];
   setChecked = false; 
 }
