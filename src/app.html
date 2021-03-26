@@ -1,7 +1,7 @@
 <template>
 	<div class="app slds-p-around_x-large">
 		<h1 class="slds-text-heading_large">{title}</h1>
-		<h3>Write JavaScript, HTML, and CSS code, and preview the output in the interactive code editor.</h3>
+		<h3 class="slds-text-heading_small">But I'm here to help make them better.</h3>
 
 		<!-- Using an if statement -->
 		<template if:true={showFeatures}>
@@ -20,11 +20,21 @@
 		</template>
 
 		<h2 class="slds-text-heading_medium slds-p-top_large">Resources</h2>
-		<a
-			href="https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.get_started_introduction">
+		<a href="https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.get_started_introduction">
 			Developer Guide
 		</a><br/>
 		<a href="https://developer.salesforce.com/docs/component-library/overview/components">Component Reference</a>
+		<div class="slds-form-element">
+			<label class="slds-checkbox_toggle slds-grid">
 
+    <input type="checkbox" name="checkbox-toggle-16" value="checkbox-toggle-16" aria-describedby="checkbox-toggle-16" checked="" />
+    <span id="checkbox-toggle-16" class="slds-checkbox_faux_container" aria-live="assertive">
+      <span class="slds-checkbox_faux"></span>
+      <span class="slds-text-title_bold slds-checkbox_on">פתוח</span>
+      <span class="slds-text-title_bold slds-checkbox_off">חסום</span>
+    </span>
+		<span class="slds-form-element__label slds-m-bottom_none">Toggle Label</span>
+  </label>
+		</div>
 	</div>
 </template>
